@@ -770,4 +770,22 @@ Gli account studente hanno l'username che inizia con le lettere S, G o X.</value
   <data name="AbsenceEventOnDayPreposition" xml:space="preserve">
     <value> del </value>
   </data>
+  <data name="SettingsCardGradesLayout.Description" xml:space="preserve">
+    <value>Seleziona il layout predefinito di visualizzazione voti</value>
+  </data>
+  <data name="SettingsCardGradesLayout.Header" xml:space="preserve">
+    <value>Layout predefinito valutazioni</value>
+  </data>
+  <data name="SettingsCardSupportLessons.Description" xml:space="preserve">
+    <value>Nascondi automaticamente le lezioni di sostegno nell'Agenda</value>
+  </data>
+  <data name="SettingsCardSupportLessons.Header" xml:space="preserve">
+    <value>Filtra lezioni di sostegno</value>
+  </data>
+  <data name="SettingsExpanderPageOptions.Description" xml:space="preserve">
+    <value>Modifica le impostazioni delle singole sezioni</value>
+  </data>
+  <data name="SettingsExpanderPageOptions.Header" xml:space="preserve">
+    <value>Opzioni pagine</value>
+  </data>
 </root>

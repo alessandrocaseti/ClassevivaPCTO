@@ -262,6 +262,57 @@
                 <TextBlock Style="{StaticResource SettingsSectionHeaderTextBlockStyle}"
                            x:Uid="Settings_General" />
 
+                <controls1:SettingsExpander x:Uid="SettingsExpanderPageOptions" >
+
+                    <controls1:SettingsExpander.HeaderIcon>
+                        <FontIcon Glyph="&#xE9F5;" />
+                    </controls1:SettingsExpander.HeaderIcon>
+
+                    <controls1:SettingsExpander.Items>
+
+                        <controls1:SettingsCard x:Uid="SettingsCardSupportLessons" >
+
+                            <controls1:SettingsCard.HeaderIcon>
+                                <FontIcon Glyph="&#xE787;" />
+                            </controls1:SettingsCard.HeaderIcon>
+
+                            <ToggleSwitch IsOn="False" x:Name="SupportLessonsToggle" />
+
+                        </controls1:SettingsCard>
+
+                        <controls1:SettingsCard x:Uid="SettingsCardAskConfirm" >
+
+                            <controls1:SettingsCard.HeaderIcon>
+                                <FontIcon Glyph="&#xE718;" />
+                            </controls1:SettingsCard.HeaderIcon>
+
+                            <ToggleSwitch IsOn="True" x:Name="askConfirmToggle" Toggled="askConfirmToggle_Toggled" />
+
+                        </controls1:SettingsCard>
+
+                        <controls1:SettingsCard x:Uid="SettingsCardGradesLayout" >
+
+                            <controls1:SettingsCard.HeaderIcon>
+                                <FontIcon Glyph="&#xE9F9;" />
+                            </controls1:SettingsCard.HeaderIcon>
+
+                            <ComboBox SelectedIndex="0">
+                                <ComboBoxItem>
+                                    <ComboBoxItem.Content>
+                                        <TextBlock Text="Lista completa"/>
+                                    </ComboBoxItem.Content>
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    <ComboBoxItem.Content>
+                                        <TextBlock Text="Suddivisione per materie"/>
+                                    </ComboBoxItem.Content>
+                                </ComboBoxItem>
+                            </ComboBox>
+
+                        </controls1:SettingsCard>
+                    </controls1:SettingsExpander.Items>
+                </controls1:SettingsExpander>
+
 
                 <!-- <labs:SettingsCard x:Uid="SettingsCardSchoolYear">
 
